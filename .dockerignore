@@ -1,0 +1,14 @@
+**/node_modules/*
+**/build/*
+**/dist/*
+**/scripts/*
+.dockerignore
+.env
+.gitignore
+Dockerfile
+package-lock.json
+pnpm-lock.yaml
+bitbucket-pipelines.yml
+docker-compose-*.yml
+README.md
+.prettierrc

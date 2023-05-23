@@ -1,0 +1,45 @@
+.custom-control-input:checked ~ .custom-control-label::before {
+    color: #fff !important;
+    border-color: #50c7a1 !important;
+    background-color: #61d66e !important;
+}
+
+.custom-switch .custom-control-input:checked ~ .custom-control-label::after {
+    background-color: #fff !important;
+    transform: translateX(0.75rem) !important;
+}
+
+tr.border_bottom tr {
+    border: 0px 0px 1px 0px !important;
+    border-color: #dee2e6 !important;
+}
+
+.table thead th {
+    vertical-align: bottom;
+    /* border-bottom: 2px solid #dee2e6; */
+}
+
+.mainHeader {
+    color: #347cff;
+}
+
+.subHeader {
+    color: #6e81a5;
+    font-size: 14px;
+
+}
+
+.subHeader2 {
+    color: #1a1ac5;
+}
+
+.header {
+    color: #13326b;
+    font-size: 25px;
+}
+
+.table-active,
+.table-active > td,
+.table-active > th {
+    background-color: #fafcff !important;
+}

@@ -1,0 +1,29 @@
+{
+    "name": "app-server-dynamic-content",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "db-link": "npm link --only=prod ../../dfn-cms-shared/packages/universal-db-driver",
+        "logger-link": "npm link --only=prod ../../dfn-cms-shared/services/logger-service",
+        "error-handler-link": "npm link --only=prod ../../dfn-cms-shared/packages/error-handler",
+        "start_moleculer": "./node_modules/.bin/moleculer-runner --envfile ./../../config/development.env --config moleculer.config.js ./src/services/",
+        "docker-start": "./node_modules/.bin/moleculer-runner --config moleculer.config.js ./src/services/",
+        "start": "npm run db-link && npm run logger-link && npm run error-handler-link && npm run start_moleculer",
+        "dev-start": "node ./node_modules/moleculer/bin/moleculer-runner.js --config moleculer.config.js ./src/services/"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "bcrypt": "^5.0.1",
+        "csurf": "^1.11.0",
+        "dotenv": "^8.2.0",
+        "email-validator": "^2.0.4",
+        "ioredis": "^4.17.3",
+        "mailgun.js": "^8.0.0",
+        "moleculer": "^0.14.7",
+        "moment": "^2.29.3",
+        "mongodb": "^4.2.1"
+    },
+    "devDependencies": {}
+}

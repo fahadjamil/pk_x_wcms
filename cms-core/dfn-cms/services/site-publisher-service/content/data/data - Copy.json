@@ -1,0 +1,906 @@
+{
+    "pages": {
+        "page01": {
+            "name": "Home",
+            "path": "home",
+            "links": [
+                "page02", "page03", "page04", "page05", "page06" 
+            ],
+            "layout": {
+                "sectionTop": {
+                    "styles": {},
+                    "components": {
+                        "component01": {
+                            "id": "p01_st_cm01",
+                            "type": "title",
+                            "data": "I'm Title Of First Page Section Top",
+                            "styles": {}
+                        },
+                        "component02": {
+                            "id": "p01_st_cm02",
+                            "type": "paragraph",
+                            "data": "I'm First Paragraph Of First Page Section Top",
+                            "styles": {}
+                        },
+                        "component03": {
+                            "id": "p01_st_cm03",
+                            "type": "paragraph",
+                            "data": "I'm Second Paragraph Of First Page Section Top",
+                            "styles": {}
+                        },
+                        "component04": {
+                            "id": "p01_st_cm04",
+                            "type": "userFetchData",
+                            "data": "I'm Third Paragraph Of First Page Section Top",
+                            "styles": {}
+                        }
+                    }
+                },
+                "sectionBottom": {
+                    "styles": {},
+                    "components": {
+                        "component01": {
+                            "id": "p01_sb_cm01",
+                            "type": "title",
+                            "data": "I'm Title Of First Page Section Bottom",
+                            "styles": {}
+                        },
+                        "component02": {
+                            "id": "p01_sb_cm02",
+                            "type": "paragraph",
+                            "data": "I'm First Paragraph Of First Page Section Bottom",
+                            "styles": {}
+                        },
+                        "component03": {
+                            "id": "p01_sb_cm03",
+                            "type": "paragraph",
+                            "data": "I'm Second Paragraph Of First Page Section Bottom",
+                            "styles": {}
+                        },
+                        "component04": {
+                            "id": "p01_sb_cm04",
+                            "type": "paragraph",
+                            "data": "I'm Third Paragraph Of First Page Section Bottom",
+                            "styles": {}
+                        }
+                    }
+                },
+                "sectionLeft": {
+                    "styles": {},
+                    "components": {
+                        "component01": {
+                            "id": "p01_sl_cm01",
+                            "type": "title",
+                            "data": "I'm Title Of First Page Section Left",
+                            "styles": {}
+                        },
+                        "component02": {
+                            "id": "p01_sl_cm02",
+                            "type": "paragraph",
+                            "data": "I'm First Paragraph Of First Page Section Left",
+                            "styles": {}
+                        },
+                        "component03": {
+                            "id": "p01_sl_cm03",
+                            "type": "paragraph",
+                            "data": "I'm Second Paragraph Of First Page Section Left",
+                            "styles": {}
+                        },
+                        "component04": {
+                            "id": "p01_sl_cm04",
+                            "type": "paragraph",
+                            "data": "I'm Third Paragraph Of First Page Section Left",
+                            "styles": {}
+                        }
+                    }
+                },
+                "sectionRight": {
+                    "styles": {},
+                    "components": {
+                        "component01": {
+                            "id": "p01_sr_cm01",
+                            "type": "title",
+                            "data": "I'm Title Of First Page Section Right",
+                            "styles": {}
+                        },
+                        "component02": {
+                            "id": "p01_sr_cm02",
+                            "type": "paragraph",
+                            "data": "I'm First Paragraph Of First Page Section Right",
+                            "styles": {}
+                        },
+                        "component03": {
+                            "id": "p01_sr_cm03",
+                            "type": "paragraph",
+                            "data": "I'm Second Paragraph Of First Page Section Right",
+                            "styles": {}
+                        },
+                        "component04": {
+                            "id": "p01_sr_cm04",
+                            "type": "paragraph",
+                            "data": "I'm Third Paragraph Of First Page Section Right",
+                            "styles": {}
+                        }
+                    }
+                },
+                "sectionMiddle": {
+                    "styles": {},
+                    "components": {
+                        "component01": {
+                            "id": "p01_sm_cm01",
+                            "type": "title",
+                            "data": "I'm Title Of First Page Section Middle",
+                            "styles": {}
+                        },
+                        "component02": {
+                            "id": "p01_sm_cm02",
+                            "type": "paragraph",
+                            "data": "I'm First Paragraph Of First Page Section Middle",
+                            "styles": {}
+                        },
+                        "component03": {
+                            "id": "p01_sm_cm03",
+                            "type": "paragraph",
+                            "data": "I'm Second Paragraph Of First Page Section Middle",
+                            "styles": {}
+                        },
+                        "component04": {
+                            "id": "p01_sm_cm04",
+                            "type": "paragraph",
+                            "data": "I'm Third Paragraph Of First Page Section Middle",
+                            "styles": {}
+                        }
+                    }
+                },
+                "styles": {}
+            }
+        },
+        "page02": {
+            "name": "About Us",
+            "path": "about",
+            "links": [
+                "page01", "page03", "page04", "page05", "page06" 
+            ],
+            "layout": {
+                "sectionTop": {
+                    "styles": {},
+                    "components": {
+                        "component01": {
+                            "id": "p02_st_cm01",
+                            "type": "title",
+                            "data": "I'm Title Of Second Page Section Top",
+                            "styles": {}
+                        },
+                        "component02": {
+                            "id": "p02_st_cm02",
+                            "type": "paragraph",
+                            "data": "I'm First Paragraph Of Second Page Section Top",
+                            "styles": {}
+                        },
+                        "component03": {
+                            "id": "p02_st_cm03",
+                            "type": "table",
+                            "data": "",
+                            "dataSource": {},
+                            "styles": {}
+                        },
+                        "component04": {
+                            "id": "p02_st_cm04",
+                            "type": "paragraph",
+                            "data": "I'm Third Paragraph Of Second Page Section Top",
+                            "styles": {}
+                        }
+                    }
+                },
+                "sectionBottom": {
+                    "styles": {},
+                    "components": {
+                        "component01": {
+                            "id": "p02_sb_cm01",
+                            "type": "title",
+                            "data": "I'm Title Of Second Page Section Bottom",
+                            "styles": {}
+                        },
+                        "component02": {
+                            "id": "p02_sb_cm02",
+                            "type": "paragraph",
+                            "data": "I'm First Paragraph Of Second Page Section Bottom",
+                            "styles": {}
+                        },
+                        "component03": {
+                            "id": "p02_sb_cm03",
+                            "type": "paragraph",
+                            "data": "I'm Second Paragraph Of Second Page Section Bottom",
+                            "styles": {}
+                        },
+                        "component04": {
+                            "id": "p02_sb_cm04",
+                            "type": "paragraph",
+                            "data": "I'm Third Paragraph Of Second Page Section Bottom",
+                            "styles": {}
+                        }
+                    }
+                },
+                "sectionLeft": {
+                    "styles": {},
+                    "components": {
+                        "component01": {
+                            "id": "p02_sl_cm01",
+                            "type": "title",
+                            "data": "I'm Title Of Second Page Section Left",
+                            "styles": {}
+                        },
+                        "component02": {
+                            "id": "p02_sl_cm02",
+                            "type": "paragraph",
+                            "data": "I'm First Paragraph Of Second Page Section Left",
+                            "styles": {}
+                        },
+                        "component03": {
+                            "id": "p02_sl_cm03",
+                            "type": "paragraph",
+                            "data": "I'm Second Paragraph Of Second Page Section Left",
+                            "styles": {}
+                        },
+                        "component04": {
+                            "id": "p02_sl_cm04",
+                            "type": "paragraph",
+                            "data": "I'm Third Paragraph Of Second Page Section Left",
+                            "styles": {}
+                        }
+                    }
+                },
+                "sectionRight": {
+                    "styles": {},
+                    "components": {
+                        "component01": {
+                            "id": "p02_sr_cm01",
+                            "type": "title",
+                            "data": "I'm Title Of Second Page Section Right",
+                            "styles": {}
+                        },
+                        "component02": {
+                            "id": "p02_sr_cm02",
+                            "type": "paragraph",
+                            "data": "I'm First Paragraph Of Second Page Section Right",
+                            "styles": {}
+                        },
+                        "component03": {
+                            "id": "p02_sr_cm03",
+                            "type": "paragraph",
+                            "data": "I'm Second Paragraph Of Second Page Section Right",
+                            "styles": {}
+                        },
+                        "component04": {
+                            "id": "p02_sr_cm04",
+                            "type": "paragraph",
+                            "data": "I'm Third Paragraph Of Second Page Section Right",
+                            "styles": {}
+                        }
+                    }
+                },
+                "sectionMiddle": {
+                    "styles": {},
+                    "components": {
+                        "component01": {
+                            "id": "p02_sm_cm01",
+                            "type": "title",
+                            "data": "I'm Title Of Second Page Section Middle",
+                            "styles": {}
+                        },
+                        "component02": {
+                            "id": "p02_sm_cm02",
+                            "type": "paragraph",
+                            "data": "I'm First Paragraph Of Second Page Section Middle",
+                            "styles": {}
+                        },
+                        "component03": {
+                            "id": "p02_sm_cm03",
+                            "type": "paragraph",
+                            "data": "I'm Second Paragraph Of Second Page Section Middle",
+                            "styles": {}
+                        },
+                        "component04": {
+                            "id": "p02_sm_cm04",
+                            "type": "paragraph",
+                            "data": "I'm Third Paragraph Of Second Page Section Middle",
+                            "styles": {}
+                        }
+                    }
+                },
+                "styles": {}
+            }
+        },
+        "page03": {
+            "name": "Products",
+            "path": "products",
+            "links": [
+                "page01", "page02", "page04", "page05", "page06" 
+            ],
+            "layout": {
+                "sectionTop": {
+                    "styles": {},
+                    "components": {
+                        "component01": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        },
+                        "component02": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        },
+                        "component03": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        },
+                        "component04": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        }
+                    }
+                },
+                "sectionBottom": {
+                    "styles": {},
+                    "components": {
+                        "component01": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        },
+                        "component02": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        },
+                        "component03": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        },
+                        "component04": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        }
+                    }
+                },
+                "sectionLeft": {
+                    "styles": {},
+                    "components": {
+                        "component01": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        },
+                        "component02": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        },
+                        "component03": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        },
+                        "component04": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        }
+                    }
+                },
+                "sectionRight": {
+                    "styles": {},
+                    "components": {
+                        "component01": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        },
+                        "component02": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        },
+                        "component03": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        },
+                        "component04": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        }
+                    }
+                },
+                "sectionMiddle": {
+                    "styles": {},
+                    "components": {
+                        "component01": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        },
+                        "component02": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        },
+                        "component03": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        },
+                        "component04": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        }
+                    }
+                },
+                "styles": {}
+            }
+        },
+        "page04": {
+            "name": "Blog",
+            "path": "blog",
+            "links": [
+                "page01", "page02", "page03", "page05", "page06" 
+            ],
+            "layout": {
+                "sectionTop": {
+                    "styles": {},
+                    "components": {
+                        "component01": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        },
+                        "component02": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        },
+                        "component03": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        },
+                        "component04": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        }
+                    }
+                },
+                "sectionBottom": {
+                    "styles": {},
+                    "components": {
+                        "component01": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        },
+                        "component02": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        },
+                        "component03": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        },
+                        "component04": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        }
+                    }
+                },
+                "sectionLeft": {
+                    "styles": {},
+                    "components": {
+                        "component01": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        },
+                        "component02": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        },
+                        "component03": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        },
+                        "component04": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        }
+                    }
+                },
+                "sectionRight": {
+                    "styles": {},
+                    "components": {
+                        "component01": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        },
+                        "component02": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        },
+                        "component03": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        },
+                        "component04": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        }
+                    }
+                },
+                "sectionMiddle": {
+                    "styles": {},
+                    "components": {
+                        "component01": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        },
+                        "component02": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        },
+                        "component03": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        },
+                        "component04": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        }
+                    }
+                },
+                "styles": {}
+            }
+        },
+        "page05": {
+            "name": "Contact Us",
+            "path": "contact",
+            "links": [
+                "page01", "page02", "page03", "page04", "page05" 
+            ],
+            "layout": {
+                "sectionTop": {
+                    "styles": {},
+                    "components": {
+                        "component01": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        },
+                        "component02": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        },
+                        "component03": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        },
+                        "component04": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        }
+                    }
+                },
+                "sectionBottom": {
+                    "styles": {},
+                    "components": {
+                        "component01": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        },
+                        "component02": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        },
+                        "component03": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        },
+                        "component04": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        }
+                    }
+                },
+                "sectionLeft": {
+                    "styles": {},
+                    "components": {
+                        "component01": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        },
+                        "component02": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        },
+                        "component03": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        },
+                        "component04": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        }
+                    }
+                },
+                "sectionRight": {
+                    "styles": {},
+                    "components": {
+                        "component01": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        },
+                        "component02": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        },
+                        "component03": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        },
+                        "component04": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        }
+                    }
+                },
+                "sectionMiddle": {
+                    "styles": {},
+                    "components": {
+                        "component01": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        },
+                        "component02": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        },
+                        "component03": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        },
+                        "component04": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        }
+                    }
+                },
+                "styles": {}
+            }
+        },
+        "page06": {
+            "name": "Examples",
+            "path": "example",
+            "links": [
+                "page01", "page02", "page03", "page04", "page05" 
+            ],
+            "layout": {
+                "sectionTop": {
+                    "styles": {},
+                    "components": {
+                        "component01": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        },
+                        "component02": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        },
+                        "component03": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        },
+                        "component04": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        }
+                    }
+                },
+                "sectionBottom": {
+                    "styles": {},
+                    "components": {
+                        "component01": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        },
+                        "component02": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        },
+                        "component03": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        },
+                        "component04": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        }
+                    }
+                },
+                "sectionLeft": {
+                    "styles": {},
+                    "components": {
+                        "component01": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        },
+                        "component02": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        },
+                        "component03": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        },
+                        "component04": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        }
+                    }
+                },
+                "sectionRight": {
+                    "styles": {},
+                    "components": {
+                        "component01": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        },
+                        "component02": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        },
+                        "component03": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        },
+                        "component04": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        }
+                    }
+                },
+                "sectionMiddle": {
+                    "styles": {},
+                    "components": {
+                        "component01": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        },
+                        "component02": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        },
+                        "component03": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        },
+                        "component04": {
+                            "type": "",
+                            "data": "",
+                            "styles": {}
+                        }
+                    }
+                },
+                "styles": {}
+            }
+        }
+    },
+    "buildTimeDataFetch": true,
+    "fetchResources": [
+        {
+            "url": "https://jsonplaceholder.typicode.com/posts/1",
+            "targets": [
+                {
+                    "page": "page02",
+                    "layout": "sectionTop",
+                    "components": [
+                        {
+                            "name": "component01",
+                            "id": "p02_st_cm01",
+                            "dataSource": ["id", "userId"]
+                        },
+                        {
+                            "name": "component02",
+                            "id": "p03_st_cm02",
+                            "dataSource": ["title"]
+                        },
+                        {
+                            "name": "component03",
+                            "id": "p04_st_cm03",
+                            "dataSource": ["body"]
+                        }
+                    ]
+                },
+                {
+                    "page": "page03",
+                    "layout": "sectionTop",
+                    "components": [
+                        {
+                            "name": "component01",
+                            "id": "p03_st_cm01",
+                            "dataSource": ["title"]
+                        }
+                    ]
+                },
+                {
+                    "page": "page04",
+                    "layout": "sectionTop",
+                    "components": [
+                        {
+                            "name": "component01",
+                            "id": "p04_st_cm01",
+                            "dataSource": ["body"]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

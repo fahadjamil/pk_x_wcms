@@ -1,0 +1,1 @@
+cd ../dfn-cms-app-server/web-router-service && npm start

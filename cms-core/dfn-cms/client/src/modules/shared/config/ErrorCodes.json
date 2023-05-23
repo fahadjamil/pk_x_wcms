@@ -1,0 +1,24 @@
+{
+    "errorCodes":[
+        {
+            "error": 404,
+            "displayValue": "404"
+        },
+        {
+            "error": 500,
+            "displayValue": "500"
+        },
+        {
+            "error": 502,
+            "displayValue": "502"
+        },
+        {
+            "error": 503,
+            "displayValue": "503"
+        },
+        {
+            "error": 504,
+            "displayValue": "504"
+        }
+    ]
+}

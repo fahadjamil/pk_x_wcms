@@ -1,0 +1,85 @@
+2022-12-22 15:52:28 info [moleculer-runner.js]: Moleculer v0.14.19 is starting...
+2022-12-22 15:52:28 info [moleculer-runner.js]: Namespace: <not defined>
+2022-12-22 15:52:28 info [moleculer-runner.js]: Node ID: node-app-server-dynamic-content
+2022-12-22 15:52:28 info [moleculer-runner.js]: Metrics: Enabled
+2022-12-22 15:52:28 info [moleculer-runner.js]: Strategy: RoundRobinStrategy
+2022-12-22 15:52:28 info [moleculer-runner.js]: Discoverer: LocalDiscoverer
+2022-12-22 15:52:28 info [moleculer-runner.js]: Serializer: JSONSerializer
+2022-12-22 15:52:29 info [moleculer-runner.js]: Validator: FastestValidator
+2022-12-22 15:52:29 info [moleculer-runner.js]: Tracing: Enabled
+2022-12-22 15:52:29 info [moleculer-runner.js]: Tracing exporter: ConsoleTraceExporter
+2022-12-22 15:52:29 info [moleculer-runner.js]: Registered 13 middleware(s).
+2022-12-22 15:52:29 info [moleculer-runner.js]: Transporter: RedisTransporter
+2022-12-22 15:52:30 info [moleculer-runner.js]: Connecting to the transporter...
+2022-12-22 15:52:30 info [moleculer-runner.js]: Setting Redis transporter
+2022-12-22 15:52:30 info [moleculer-runner.js]: Redis-sub client is connected.
+2022-12-22 15:52:30 info [moleculer-runner.js]: Setting Redis transporter
+2022-12-22 15:52:30 info [moleculer-runner.js]: Redis-pub client is connected.
+2022-12-22 15:52:30 info [moleculer-runner.js]: Node 'desktop-hu6fekd-8156' connected.
+2022-12-22 15:52:30 info [moleculer-runner.js]: Node 'node-site-manager' connected.
+2022-12-22 15:52:30 info [moleculer-runner.js]: Node 'node-headless-cms' connected.
+2022-12-22 15:52:30 info [moleculer-runner.js]: Node 'node-web-router' connected.
+2022-12-22 15:52:30 info [moleculer-runner.js]: Node 'app-web-router' connected.
+2022-12-22 15:52:31 info [moleculer-runner.js]: SERVICE - app-server.dynamic-content.app-data - Started.
+2022-12-22 15:52:31 info [moleculer-runner.js]: '$node' service is registered.
+2022-12-22 15:52:31 info [moleculer-runner.js]: 'app-server.dynamic-content.app-data' service is registered.
+2022-12-22 15:52:31 info [moleculer-runner.js]: Service '$node' started.
+2022-12-22 15:52:31 info [moleculer-runner.js]: Service 'app-server.dynamic-content.app-data' started.
+2022-12-22 15:52:31 info [moleculer-runner.js]: ✔ ServiceBroker with 2 service(s) started successfully in 666ms.
+2022-12-22 15:52:36 info [moleculer-runner.js]: Node 'node-auth' connected.
+2022-12-22 15:57:00 error [moleculer-runner.js]: Redis-sub error
+2022-12-22 15:57:00 warn [moleculer-runner.js]: Redis-sub client is disconnected.
+2022-12-22 15:57:00 error [moleculer-runner.js]: Redis-pub error
+2022-12-22 15:57:00 warn [moleculer-runner.js]: Redis-pub client is disconnected.
+2022-12-22 15:57:00 error [moleculer-runner.js]: Redis-sub error
+2022-12-22 15:57:00 warn [moleculer-runner.js]: Redis-sub client is disconnected.
+2022-12-22 15:57:00 error [moleculer-runner.js]: Redis-pub error
+2022-12-22 15:57:00 warn [moleculer-runner.js]: Redis-pub client is disconnected.
+2022-12-22 15:57:00 error [moleculer-runner.js]: Redis-sub error
+2022-12-22 15:57:00 warn [moleculer-runner.js]: Redis-sub client is disconnected.
+2022-12-22 15:57:00 error [moleculer-runner.js]: Redis-pub error
+2022-12-22 15:57:00 warn [moleculer-runner.js]: Redis-pub client is disconnected.
+2022-12-22 15:57:01 error [moleculer-runner.js]: Redis-sub error
+2022-12-22 15:57:01 warn [moleculer-runner.js]: Redis-sub client is disconnected.
+2022-12-22 15:57:01 error [moleculer-runner.js]: Redis-pub error
+2022-12-22 15:57:01 warn [moleculer-runner.js]: Redis-pub client is disconnected.
+2022-12-22 15:57:01 error [moleculer-runner.js]: Redis-sub error
+2022-12-22 15:57:01 warn [moleculer-runner.js]: Redis-sub client is disconnected.
+2022-12-22 15:57:01 error [moleculer-runner.js]: Redis-pub error
+2022-12-22 15:57:01 warn [moleculer-runner.js]: Redis-pub client is disconnected.
+2022-12-22 15:57:01 error [moleculer-runner.js]: Redis-sub error
+2022-12-22 15:57:01 warn [moleculer-runner.js]: Redis-sub client is disconnected.
+2022-12-22 15:57:01 error [moleculer-runner.js]: Redis-pub error
+2022-12-22 15:57:01 warn [moleculer-runner.js]: Redis-pub client is disconnected.
+2022-12-22 15:57:01 error [moleculer-runner.js]: Redis-sub error
+2022-12-22 15:57:01 warn [moleculer-runner.js]: Redis-sub client is disconnected.
+2022-12-22 15:57:01 error [moleculer-runner.js]: Redis-pub error
+2022-12-22 15:57:01 warn [moleculer-runner.js]: Redis-pub client is disconnected.
+2022-12-22 15:57:02 error [moleculer-runner.js]: Redis-sub error
+2022-12-22 15:57:02 warn [moleculer-runner.js]: Redis-sub client is disconnected.
+2022-12-22 15:57:02 error [moleculer-runner.js]: Redis-pub error
+2022-12-22 15:57:02 warn [moleculer-runner.js]: Redis-pub client is disconnected.
+2022-12-22 15:57:02 error [moleculer-runner.js]: Redis-sub error
+2022-12-22 15:57:02 error [moleculer-runner.js]: Redis-pub error
+2022-12-22 15:57:02 warn [moleculer-runner.js]: Redis-pub client is disconnected.
+2022-12-22 15:57:02 warn [moleculer-runner.js]: Redis-sub client is disconnected.
+2022-12-22 15:57:03 error [moleculer-runner.js]: Redis-pub error
+2022-12-22 15:57:03 warn [moleculer-runner.js]: Redis-pub client is disconnected.
+2022-12-22 15:57:03 error [moleculer-runner.js]: Redis-sub error
+2022-12-22 15:57:03 warn [moleculer-runner.js]: Redis-sub client is disconnected.
+2022-12-22 15:57:03 error [moleculer-runner.js]: Redis-pub error
+2022-12-22 15:57:03 warn [moleculer-runner.js]: Redis-pub client is disconnected.
+2022-12-22 15:57:03 error [moleculer-runner.js]: Redis-sub error
+2022-12-22 15:57:03 warn [moleculer-runner.js]: Redis-sub client is disconnected.
+2022-12-22 15:57:04 error [moleculer-runner.js]: Redis-pub error
+2022-12-22 15:57:04 warn [moleculer-runner.js]: Redis-pub client is disconnected.
+2022-12-22 15:57:04 error [moleculer-runner.js]: Redis-sub error
+2022-12-22 15:57:04 warn [moleculer-runner.js]: Redis-sub client is disconnected.
+2022-12-22 15:57:04 error [moleculer-runner.js]: Redis-pub error
+2022-12-22 15:57:04 warn [moleculer-runner.js]: Redis-pub client is disconnected.
+2022-12-22 15:57:04 error [moleculer-runner.js]: Redis-sub error
+2022-12-22 15:57:04 warn [moleculer-runner.js]: Redis-sub client is disconnected.
+2022-12-22 15:57:05 error [moleculer-runner.js]: Redis-pub error
+2022-12-22 15:57:05 error [moleculer-runner.js]: Redis-sub error
+2022-12-22 15:57:05 warn [moleculer-runner.js]: Redis-sub client is disconnected.
+2022-12-22 15:57:05 warn [moleculer-runner.js]: Redis-pub client is disconnected.

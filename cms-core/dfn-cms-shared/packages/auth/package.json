@@ -1,0 +1,46 @@
+{
+    "name": "auth-service",
+    "version": "1.0.0",
+    "description": "",
+    "main": "./dist/index.js",
+    "scripts": {
+        "cache-link": "npm link ../cache/dist/",
+        "db-link": "npm link ../universal-db-driver/",
+        "_start": "set DEBUG=express:* & nodemon app.js",
+        "start": "nodemon ./src/index.ts",
+        "gulp-build": "gulp build",
+        "build": "npm run db-link && npm run cache-link && npm run gulp-build",
+        "dev": "node dist/app.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/bcryptjs": "^2.4.2",
+        "@types/connect-redis": "0.0.13",
+        "@types/express": "^4.17.6",
+        "@types/express-session": "1.17.0",
+        "@types/ioredis": "^4.16.0",
+        "@types/mongodb": "^3.5.14",
+        "@types/node": "^13.13.4",
+        "@types/passport": "^1.0.3",
+        "@types/passport-jwt": "^3.0.3",
+        "@types/passport-local": "^1.0.33",
+        "gulp": "^4.0.2",
+        "gulp-typescript": "^6.0.0-alpha.1",
+        "nodemon": "^2.0.3",
+        "ts-node": "^8.9.1",
+        "typescript": "^3.8.3"
+    },
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "connect-redis": "^4.0.4",
+        "dotenv": "^8.2.0",
+        "email-validator": "^2.0.4",
+        "express": "^4.17.1",
+        "express-session": "^1.17.1",
+        "ioredis": "^4.17.3",
+        "passport": "^0.4.1",
+        "passport-jwt": "^4.0.0",
+        "passport-local": "^1.0.0"
+    }
+}

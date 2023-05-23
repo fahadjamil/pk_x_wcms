@@ -1,0 +1,317 @@
+{
+    "types": [{
+            "id": "1",
+            "features": [{
+                "name" : "Menu",
+                "description" : "addPage description",
+                "operation" : [ 
+                    {
+                        "id" : "1",
+                        "url" : "/api/menus/create",
+                        "roles" : [1]
+                    }, 
+                    {
+                        "id" : "2",
+                        "url" : "/api/menus/data/save",
+                        "roles" : [1]
+                    }, 
+                    {
+                        "id" : "3",
+                        "url" : "/api/menus/delete",
+                        "roles" : [1]
+                    }
+                ]
+            }, 
+            {
+                "name" : "Page",
+                "description" : "editPage description",
+                "operation" : [ 
+                    {
+                        "id" : "1",
+                        "url" : "/api/pages/create",
+                        "roles" : [1]
+                    }, 
+                    {
+                        "id" : "2",
+                        "url" : "/api/pages/update",
+                        "roles" : [1]
+                    }
+                ]
+            }, 
+            {
+                "name" : "Site Role",
+                "description" : "CMS Role description",
+                "operation" : [ 
+                    {
+                        "id" : "1",
+                        "url" : "/api/sites/roles/create",
+                        "roles" : [1]
+                    }, 
+                    {
+                        "id" : "2",
+                        "url" : "/api/sites/roles/update",
+                        "roles" : [1]
+                    }, 
+                    {
+                        "id" : "3",
+                        "url" : "/api/sites/roles/delete",
+                        "roles" : [1]
+                    }, 
+                    {
+                        "id" : "4",
+                        "url" : "/api/sites/roles",
+                        "roles" : [1]
+                    }
+                ]
+            }, 
+            {
+                "name" : "Site Permission",
+                "description" : "Site Permission description",
+                "operation" : [ 
+                    {
+                        "id" : "1",
+                        "url" : "/api/menus/save",
+                        "roles" : [1]
+                    }, 
+                    {
+                        "id" : "4",
+                        "url" : "/api/menus",
+                        "roles" : [1]
+                    }
+                ]
+            }, 
+            {
+                "name" : "CMS Role",
+                "description" : "CMS Role description",
+                "operation" : [ 
+                    {
+                        "id" : "1",
+                        "url" : "/api/cms/roles/create",
+                        "roles" : [1]
+                    }, 
+                    {
+                        "id" : "2",
+                        "url" : "/api/cms/roles/update",
+                        "roles" : [1]
+                    }, 
+                    {
+                        "id" : "3",
+                        "url" : "/api/cms/roles/delete",
+                        "roles" : [1]
+                    }, 
+                    {
+                        "id" : "4",
+                        "url" : "/api/cms/roles",
+                        "roles" : [1]
+                    }
+                ]
+            }, 
+            {
+                "name" : "CMS Permission",
+                "description" : "Site Permission description",
+                "operation" : [ 
+                    {
+                        "id" : "2",
+                        "url" : "/api/cms/features/save",
+                        "roles" : [1]
+                    }, 
+                    {
+                        "id" : "4",
+                        "url" : "/api/cms/permissions",
+                        "roles" : [1]
+                    }
+                ]
+            }, 
+            {
+                "name" : "Custom Type",
+                "description" : "approvePage description",
+                "operation" : [ 
+                    {
+                        "id" : "1",
+                        "url" : "/api/custom-collections/create",
+                        "roles" : [1]
+                    }, 
+                    {
+                        "id" : "2",
+                        "url" : "/api/custom-collections/new/update",
+                        "roles" : [1]
+                    }
+                ]
+            }, 
+            {
+                "url" : "/api/page/publishPage",
+                "name" : "Video",
+                "description" : "Video",
+                "operation" : [ 
+                    {
+                        "id" : "1",
+                        "url" : "/api/custom-collections/video/create",
+                        "roles" : [1]
+                    }
+                ]
+            }, 
+            {
+                "url" : "/api/page/publishPage",
+                "name" : "Images",
+                "description" : "Images",
+                "operation" : [ 
+                    {
+                        "id" : "1",
+                        "url" : "/api/custom-collections/image/create",
+                        "roles" : [1]
+                    }
+                ]
+            }, 
+            {
+                "url" : "/api/page/publishPage",
+                "name" : "ICON",
+                "description" : "icon description",
+                "operation" : [ 
+                    {
+                        "id" : "1",
+                        "url" : "/api/custom-collections/icons/upload",
+                        "roles" : [1]
+                    }
+                ]
+            }, 
+            {
+                "url" : "/api/page/publishPage",
+                "name" : "Banners",
+                "description" : "publishPage description",
+                "operation" : [ 
+                    {
+                        "id" : "1",
+                        "url" : "/api/banners/create",
+                        "roles" : [1]
+                    }, 
+                    {
+                        "id" : "2",
+                        "url" : "/api/banners/update",
+                        "roles" : [1]
+                    }, 
+                    {
+                        "id" : "3",
+                        "url" : "/api/banners/delete",
+                        "roles" : [1]
+                    }, 
+                    {
+                        "id" : "4",
+                        "url" : "/api/banners/getAll",
+                        "roles" : [1]
+                    }
+                ]
+            }, 
+            {
+                "url" : "/api/page/publishPage",
+                "name" : "Master Template",
+                "description" : "publishPage description",
+                "operation" : [ 
+                    {
+                        "id" : "1",
+                        "url" : "/api/templates/create",
+                        "roles" : [1]
+                    }
+                ]
+            }
+            ]
+        }, {
+            "id": "2",
+            "features": [{
+                    "name": "Page",
+                    "description": "Page description",
+                    "operation": []
+                }, {
+                    "name": "Website",
+                    "description": "Website description",
+                    "operation": []
+                }, {
+                    "name": "Video",
+                    "description": "Video description",
+                    "operation": []
+                }
+            ]
+        }, {
+            "id": "3",
+            "features": [ 
+                {
+                    "id" : "3",
+                    "name" : "side nav bar",
+                    "operation" : [ 
+                        {
+                            "id" : "1",
+                            "roles" : [ 
+                                1
+                            ],
+                            "type" : "side",
+                            "name" : "Menu"
+                        }, 
+                        {
+                            "id" : "2",
+                            "roles" : [ 
+                                1
+                            ],
+                            "type" : "side",
+                            "name" : "Templates"
+                        }, 
+                        {
+                            "id" : "3",
+                            "roles" : [ 
+                                1
+                            ],
+                            "type" : "side",
+                            "name" : "Pages"
+                        }, 
+                        {
+                            "id" : "4",
+                            "roles" : [ 
+                                1
+                            ],
+                            "type" : "side",
+                            "name" : "Documents"
+                        }, 
+                        {
+                            "id" : "5",
+                            "roles" : [ 
+                                1
+                            ],
+                            "type" : "side",
+                            "name" : "Banners"
+                        }, 
+                        {
+                            "id" : "6",
+                            "roles" : [ 
+                                1
+                            ],
+                            "type" : "side",
+                            "name" : "Users"
+                        }, 
+                        {
+                            "id" : "7",
+                            "roles" : [ 
+                                1
+                            ],
+                            "type" : "side",
+                            "name" : "Workflow"
+                        }, 
+                        {
+                            "id" : "8",
+                            "roles" : [ 
+                                1
+                            ],
+                            "type" : "side",
+                            "name" : "Settings"
+                        }, 
+                        {
+                            "id" : "9",
+                            "roles" : [ 
+                                1
+                            ],
+                            "type" : "side",
+                            "name" : "Publish"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

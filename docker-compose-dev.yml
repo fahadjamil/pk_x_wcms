@@ -1,0 +1,244 @@
+version: '3.8'
+services:
+  cms-admin-console:
+    build:
+      context: .
+      dockerfile: ./cms-core/dfn-cms/client/Dockerfile
+    image: dfn-cms/cms-admin-console
+    stdin_open: true
+    tty: true
+    container_name: cms-admin
+    env_file:
+      - ./cms-core/config/.env
+    volumes:
+      - type: bind
+        source: ./cms-core/dfn-cms/client:cached
+        target: /usr/etc/app
+    expose:
+      - "3000"
+    ports:
+      - 80:3000
+    deploy:
+      mode: replicated
+      replicas: 1
+      endpoint_mode: vip
+      restart_policy:
+        condition: on-failure
+    depends_on:
+      - web-router-service
+    networks:
+      - dfn
+      - default
+  redis-service:
+    image: redis
+    container_name: redis-cache
+    ports:
+      - 6379:6379
+    deploy:
+      mode: replicated
+      replicas: 1
+      endpoint_mode: vip
+      restart_policy:
+        condition: on-failure
+    networks:
+      - dfn
+      - dfn-app
+      - default
+  headless-cms-service:
+    build:
+      context: .
+      dockerfile: ./cms-core/dfn-cms/services/headless-cms-service/Dockerfile
+    image: dfn-cms/headless-cms-service
+    container_name: headless-cms
+    env_file:
+      - ./cms-core/config/.env
+    volumes:
+      - type: bind
+        source: ./cms-core/dfn-cms/services/headless-cms-service:cached
+        target: /usr/etc/app
+      - "./cms-core/config/dfn-cms/headless-cms-service/moleculer.config.js:/usr/etc/app/moleculer.config.js"
+    deploy:
+      mode: replicated
+      replicas: 1
+      endpoint_mode: vip
+      restart_policy:
+        condition: on-failure
+    depends_on:
+      - redis-service
+    networks:
+      - dfn
+  cms-auth-service:
+    build:
+      context: .
+      dockerfile: ./cms-core/dfn-cms/services/auth-service/Dockerfile
+    image: dfn-cms/cms-auth-service
+    container_name: cms-auth
+    env_file:
+      - ./cms-core/config/.env
+    volumes:
+      - type: bind
+        source: ./cms-core/dfn-cms/services/auth-service:cached
+        target: /usr/etc/app
+      - "./cms-core/config/dfn-cms/auth-service/moleculer.config.js:/usr/etc/app/moleculer.config.js"
+    deploy:
+      mode: replicated
+      replicas: 1
+      endpoint_mode: vip
+      restart_policy:
+        condition: on-failure
+    depends_on:
+      - redis-service
+    networks:
+      - dfn
+  web-router-service:
+    build:
+      context: .
+      dockerfile: ./cms-core/dfn-cms/services/web-router-service/Dockerfile
+    image: dfn-cms/web-router-service
+    container_name: web-router
+    env_file:
+      - ./cms-core/config/.env
+    volumes:
+      - type: bind
+        source: ./cms-core/dfn-cms/services/web-router-service:cached
+        target: /usr/etc/app
+      - "./cms-core/config/dfn-cms/web-router-service/moleculer.config.js:/usr/etc/app/moleculer.config.js"
+    expose:
+      - "3200"
+    deploy:
+      mode: replicated
+      replicas: 1
+      endpoint_mode: vip
+      restart_policy:
+        condition: on-failure
+    depends_on:
+      - redis-service
+      - headless-cms-service
+    networks:
+      - dfn
+  app-web-router-service:
+    build:
+      context: .
+      dockerfile: ./cms-core/dfn-cms-app-server/web-router-service/Dockerfile
+    image: dfn-cms-app-server/web-router-service
+    container_name: app-web-router
+    env_file:
+      - ./cms-core/config/.env
+    volumes:
+      - type: bind
+        source: ./cms-core/dfn-cms-app-server/web-router-service:cached
+        target: /usr/etc/app
+      - "./cms-core/config/dfn-cms/web-router-service/moleculer.config.js:/usr/etc/app/moleculer.config.js"
+      - eop_uploads:/usr/etc/app/uploads
+    expose:
+      - "3300"
+    deploy:
+      mode: replicated
+      replicas: 1
+      endpoint_mode: vip
+      restart_policy:
+        condition: on-failure
+    depends_on:
+      - redis-service
+    networks:
+      - dfn-app
+  app-auth-service:
+    build:
+      context: .
+      dockerfile: ./cms-core/dfn-cms-app-server/auth-service/Dockerfile
+    image: dfn-cms-app-server/auth-service
+    container_name: app-auth
+    env_file:
+      - ./cms-core/config/.env
+    volumes:
+      - type: bind
+        source: ./cms-core/dfn-cms-app-server/auth-service:cached
+        target: /usr/etc/app
+      - "./cms-core/config/dfn-cms/auth-service/moleculer.config.js:/usr/etc/app/moleculer.config.js"
+    deploy:
+      mode: replicated
+      replicas: 1
+      endpoint_mode: vip
+      restart_policy:
+        condition: on-failure
+    depends_on:
+      - redis-service
+    networks:
+      - dfn-app
+  site-publisher-service:
+    build:
+      context: .
+      dockerfile: ./cms-core/dfn-cms/services/site-publisher-service/Dockerfile
+    image: dfn-cms/site-publisher-service
+    container_name: site-publisher
+    env_file:
+      - ./cms-core/config/.env
+    volumes:
+      - type: bind
+        source: ./cms-core/dfn-cms/services/site-publisher-service:cached
+        target: /usr/etc/app
+      - "./cms-core/config/dfn-cms/site-publisher-service/moleculer.config.js:/usr/etc/app/moleculer.config.js"
+    deploy:
+      mode: replicated
+      replicas: 1
+      endpoint_mode: vip
+      restart_policy:
+        condition: on-failure
+    depends_on:
+      - redis-service
+    networks:
+      - dfn
+  site-manager-service:
+    build:
+      context: .
+      dockerfile: ./cms-core/dfn-cms-app-server/site-manager-service/Dockerfile
+    image: dfn-cms-app-server/site-manager-service
+    container_name: site-manager
+    env_file:
+      - ./cms-core/config/.env
+    volumes:
+      - type: bind
+        source: ./cms-core/dfn-cms-app-server/site-manager-service:cached
+        target: /usr/etc/app
+      - "../cms-core/dfn-cms-app-server/site-manager-service/moleculer.config.js:/usr/etc/app/moleculer.config.js"
+    deploy:
+      mode: replicated
+      replicas: 1
+      endpoint_mode: vip
+      restart_policy:
+        condition: on-failure
+    depends_on:
+      - redis-service
+    networks:
+      - dfn
+  app-dynamic-content-service:
+    build:
+      context: .
+      dockerfile: ./cms-core/dfn-cms-app-server/dynamic-content-service/Dockerfile
+    image: dfn-cms-app-server/dynamic-content-service
+    container_name: app-dynamic-content
+    env_file:
+      - ./cms-core/config/.env
+    volumes:
+      - type: bind
+        source: ./cms-core/dfn-cms-app-server/dynamic-content-service:cached
+        target: /usr/etc/app
+      - "./cms-core/dfn-cms-app-server/dynamic-content-service/moleculer.config.js:/usr/etc/app/moleculer.config.js"
+    deploy:
+      mode: replicated
+      replicas: 1
+      endpoint_mode: vip
+      restart_policy:
+        condition: on-failure
+    depends_on:
+      - redis-service
+    networks:
+      - dfn-app
+networks:
+  dfn:
+    driver: overlay
+  dfn-app:
+    driver: overlay
+
+volumes:
+  eop_uploads:

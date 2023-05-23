@@ -1,0 +1,34 @@
+const URLtail = `/api/getSampleResponse?`;
+const queryParams = `key=`;
+export const appServerURL = (param) => `${URLtail}${queryParams}${param}`;
+//user Registration
+export const eopUserRegistration=()=>'/api/auth/eop_user_registration';
+export const eopUserLogIn=()=>'/api/auth/eop_user_login';
+export const eopAdminUserLogIn=()=>'/api/auth/eop_admin_user_logIn';
+export const eopAddCategories=()=>'/api/eop_add_categories';
+export const eopShowCategories=()=>'/api/eop_show_categories';
+export const eopUpdateCategory=()=>'/api/eop_update_category';
+export const eopUsers=()=>'/api/auth/eop_user';
+export const eopStepNum=()=>'/api/eop_step_num';
+export const eopStepItems=()=>'/api/eop_step_item';
+export const eopShowStep=()=>'/api/eop_show_steps';
+export const eopUpdateStepNum=()=>'/api/eop_update_step_num';
+export const eopUpdateStepItem=()=>'/api/eop_update_step_item';
+export const eopUserRoles=()=>'/api/eop_role';
+export const eopUserDesignation=()=>'/api/eop_user_designation';
+export const eopShowUserDesignation=()=>'/api/eop_show_user_designation';
+export const eopShowUserRoles=()=>'/api/eop_show_role';
+export const eopAddUser=()=>'/api/eop_add_user';
+export const eopRoleListing=()=>'/api/eop_role_listing';
+export const eopUpdateUserRole=()=>'/api/eop_update_user_role';
+export const eopApplicationSubmissions=()=>'/api/eop_application_submissions';
+export const submittedApplications=()=>'/api/submited_applications';
+export const cssPieChart=()=>'/api/css_portal_pieChart';
+export const cssBarChart=()=>'/api/css_portal_barChart';
+export const eopUpdateItem=()=>'/api/eop_update_item';
+export const eopGetPages=()=>'/api/eop_get_pages';
+export const eopAddRolePermissions=()=>'/api/eop_add_role_permissions';
+export const eopUserDepartment=()=>'/api/eop_user_department'
+export const eopUpdateDepartment=()=>'/api/eop_update_department';
+export const eopShowUserDepartment=()=>'/api/eop_show_user_department';
+export const eopApprovalWorkflow=()=>'/api/eop_approval_workflow';

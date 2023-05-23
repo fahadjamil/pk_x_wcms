@@ -1,0 +1,19 @@
+import React from 'react';
+
+export default function ScrollToTopIcon(props) {
+    return (
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" {...props}>
+            <defs>
+                <style>{".cls-1{fill:#fff;}.cls-2{fill:#666;}.cls-3{fill:#e6e6e6;}"}</style>
+            </defs>
+            <title>scrolltotop</title>
+            <g id="Layer_2" dataname="Layer 2">
+                <g id="Layer_1-2" dataname="Layer 1">
+                    <circle className="cls-1" cx="32" cy="32" r="32"/>
+                    <polygon className="cls-2" points="44.02 33.48 42.61 34.89 33 25.29 33 47.18 31 47.18 31 25.29 21.39 34.89 19.98 33.48 32 21.46 44.02 33.48"/>
+                    <rect className="cls-3" x="19.98" y="19.76" width="24.04" height="1.7"/>
+                </g>
+            </g>
+        </svg>
+    );
+}

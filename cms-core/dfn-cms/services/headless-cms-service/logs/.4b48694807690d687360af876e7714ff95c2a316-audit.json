@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 30
+    },
+    "auditLog": "logs\\.4b48694807690d687360af876e7714ff95c2a316-audit.json",
+    "files": [
+        {
+            "date": 1671706336379,
+            "name": "logs\\headless-cms-2022-12-22.log",
+            "hash": "496129fae1eb2c4ba2c255c91b5e4658"
+        }
+    ],
+    "hashType": "md5"
+}

@@ -1,0 +1,26 @@
+{
+    "scripts": {
+        "cache-link": "npm link --only=prod ../../../dfn-cms-shared/packages/cache/dist",
+        "db-link": "npm link --only=prod ../../../dfn-cms-shared/packages/universal-db-driver",
+        "link-all": "npm run db-link && npm run cache-link",
+        "logger-link": "npm link --only=prod ../../../dfn-cms-shared/services/logger-service",
+        "error-handler-link": "npm link --only=prod ../../../dfn-cms-shared/packages/error-handler",
+        "start_moleculer": "./node_modules/.bin/moleculer-runner --envfile ./../../../config/development.env --config moleculer.config.js ./services/",
+        "start": "npm run logger-link && npm run error-handler-link && npm run cache-link && npm run start_moleculer",
+        "docker-start": "./node_modules/.bin/moleculer-runner --config moleculer.config.js ./services/",
+        "dev-start": "node ./node_modules/moleculer/bin/moleculer-runner.js --config moleculer.config.js ./services/"
+    },
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "cors": "^2.8.5",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "express-fileupload": "^1.1.7-alpha.3",
+        "fluent-ffmpeg": "^2.1.2",
+        "ioredis": "^4.17.3",
+        "moleculer": "^0.14.7",
+        "morgan": "^1.10.0",
+        "node-fetch": "^2.6.1",
+        "query-string": "^7.0.1"
+    }
+}

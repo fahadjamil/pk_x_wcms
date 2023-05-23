@@ -1,0 +1,146 @@
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 4px;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.modal-backdrop
+{
+    opacity:0.5 !important;
+}
+
+.btn-primary {
+    color: #FFF;
+    background-color: #66BCFF;
+    border: none;
+}
+
+.btn-primary-top-menu {
+    color: #000000;
+    background-color: #ffda6a;
+    border-color: #e1b100;
+}
+
+.btn-light {
+    color: #212529;
+    background-color: #eef0f2;
+    border-color: #f8f9fa;
+}
+
+.btn-outline-warning {
+    color: #f8cd4f;
+    border-color: #c6c0ad;
+}
+
+.navbar-brand {
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+.badge-primary {
+    color: #fff;
+    background-color: #bfc3c6;
+}
+
+.badge-primary-plus {
+    color: #000;
+    /* background-color: #bfc3c6; */
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.badge {
+    display: inline-block;
+    padding: 0.25em 0.4em;
+    font-size: 75%;
+    font-weight: 500;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn .badge {
+    position: relative;
+    top: 3px;
+}
+
+.list-group {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    border-radius: .25rem;
+    float: right;
+}
+
+.list-group-cms {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    border-radius: .25rem;
+}
+
+.btn-secondary-cms {
+    color: #ce9a25;
+    background-color: #46494D;
+    border-color: #404c56;
+}
+
+.btn-secondary-cms:hover{
+    color: #fff;
+    background-color: #485058;
+    border-color: #404c56;
+}
+
+
+.dropright .dropdown-toggle::after {
+
+    display: inline-block;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    color: #dadada;
+    border-top: .3em solid transparent;
+    border-right: 0;
+     border-bottom: 0em solid transparent !important;
+    border-left: 0em solid !important; 
+}
+
+.dropdown-toggle:after{
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.dropdown-toggle:hover:after{
+    opacity: 0.5;
+}
+
+
+
+.label-cms {
+    display: inline-block !important;
+    margin-bottom: .5rem !important;
+    font-size: 10px !important;
+}
+
+
+.lb-sm {
+    font-size: 11px !important;
+  }
+
+  .card-body-cms {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 0.25rem;
+}

@@ -1,0 +1,22 @@
+{
+    "scripts": {
+        "logger-link": "npm link --only=prod ../../dfn-cms-shared/services/logger-service",
+        "cache-link": "npm link ../../dfn-cms-shared/packages/cache/dist",
+        "error-handler-link": "npm link --only=prod ../../dfn-cms-shared/packages/error-handler",
+        "start_moleculer": "./node_modules/.bin/moleculer-runner --envfile ./../../config/development.env --config moleculer.config.js ./services/",
+        "start": "npm run logger-link  && npm run cache-link && npm run error-handler-link && npm run start_moleculer",
+        "start1": "npm run logger-link && npm run error-handler-link && node ./services/ftp_server.js",
+        "docker-start": "./node_modules/.bin/moleculer-runner --config moleculer.config.js ./services/",
+        "dev-start": "node ./node_modules/moleculer/bin/moleculer-runner.js --config moleculer.config.js ./services/"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "del": "^6.0.0",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "express-fileupload": "^1.1.7-alpha.3",
+        "extract-zip": "^2.0.1",
+        "ioredis": "^4.17.3",
+        "moleculer": "^0.14.7"
+    }
+}

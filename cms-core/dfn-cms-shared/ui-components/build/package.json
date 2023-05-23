@@ -1,0 +1,48 @@
+{
+    "name": "ui-components",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "dependencies": {
+        "@ckeditor/ckeditor5-build-classic": "^18.0.0",
+        "@loadable/babel-plugin": "^5.13.2",
+        "@loadable/component": "^5.15.0",
+        "@types/react-lazy-load-image-component": "^1.5.1",
+        "@types/styled-components": "^5.1.0",
+        "@types/uuid": "^8.0.0",
+        "babel-core": "^6.24.1",
+        "babel-loader": "^7.0.0",
+        "babel-plugin-syntax-dynamic-import": "^6.18.0",
+        "babel-plugin-transform-object-rest-spread": "^6.23.0",
+        "babel-plugin-transform-react-jsx": "^6.24.1",
+        "babel-preset-env": "^1.5.1",
+        "copy-webpack-plugin": "^6.0.2",
+        "moment": "^2.29.1",
+        "natural-compare": "^1.4.0",
+        "react-custom-events": "1.0.3",
+        "react-google-recaptcha": "^2.1.0",
+        "react-loadable": "^5.5.0",
+        "react-paginate": "^7.1.0",
+        "save": "^2.4.0",
+        "ts-loader": "^7.0.5",
+        "typescript": "^3.9.6",
+        "webpack": "^4.43.0",
+        "webpack-cli": "^3.3.12"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "webpack --watch",
+        "build": "npm run bk-specific-link && npm run eop-specific-link && webpack",
+        "build-bk-specific": "cd ../../../kw_bk_ui_components && npm run build",
+        "build-eop-specific": "cd ../../../eop_ui_components && npm run build",
+        "bk-specific-link": "npm run build-bk-specific && npm link --only=prod ../../../kw_bk_ui_components/build",
+        "eop-specific-link": "npm run build-eop-specific && npm link --only=prod ../../../eop_ui_components/build",
+        "docker-build": "webpack"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "webpack-bundle-analyzer": "^4.3.0",
+        "webpack-cli": "^3.3.12"
+    }
+}

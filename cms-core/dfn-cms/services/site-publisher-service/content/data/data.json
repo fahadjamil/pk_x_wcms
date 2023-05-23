@@ -1,0 +1,314 @@
+{
+    "pages": [
+        {
+            "id": "p01",
+            "name": "page01",
+            "title": "Home",
+            "path": "/",
+            "links": {
+                "products": "Our Products",
+                "services": "Our Services",
+                "about": "About Us",
+                "team": "Our Team",
+                "contact": "Contact Us"
+            },
+            "styles": {},
+            "layout": [
+                {
+                    "id": "p01_st",
+                    "name": "sectionTop",
+                    "styles": {},
+                    "components": [
+                        {
+                            "id": "p01_st_cm01",
+                            "name": "ParagraphComponent",
+                            "type": "paragraph",
+                            "data": "",
+                            "fetchedData": [],
+                            "styles": {}
+                        },
+                        {
+                            "id": "p01_st_cm02",
+                            "name": "ParagraphComponent",
+                            "type": "paragraph",
+                            "data": "I'm First Paragraph Of Home Page Section Top",
+                            "fetchedData": [],
+                            "styles": {}
+                        },
+                        {
+                            "id": "p01_st_cm03",
+                            "name": "ParagraphComponent",
+                            "type": "paragraph",
+                            "data": "I'm Second Paragraph Of Home Page Section Top",
+                            "fetchedData": [],
+                            "styles": {}
+                        },
+                        {
+                            "id": "p01_st_cm04",
+                            "name": "ParagraphComponent",
+                            "type": "userFetchData",
+                            "data": "I'm Third Paragraph Of Home Page Section Top",
+                            "fetchedData": [],
+                            "styles": {}
+                        }
+                    ]
+                },
+                {
+                    "id": "p01_sb",
+                    "name": "sectionLeft",
+                    "styles": {},
+                    "components": [
+                        {
+                            "id": "p01_sl_cm01",
+                            "name": "TitleComponent",
+                            "type": "title",
+                            "data": "",
+                            "fetchedData": [],
+                            "styles": {}
+                        },
+                        {
+                            "id": "p01_sl_cm02",
+                            "name": "ParagraphComponent",
+                            "type": "paragraph",
+                            "data": "I'm First Paragraph Of Home Page Section Left",
+                            "fetchedData": [],
+                            "styles": {}
+                        },
+                        {
+                            "id": "p01_sl_cm03",
+                            "name": "ParagraphComponent",
+                            "type": "paragraph",
+                            "data": "I'm Second Paragraph Of Home Page Section Left",
+                            "fetchedData": [],
+                            "styles": {}
+                        },
+                        {
+                            "id": "p01_sl_cm04",
+                            "name": "ParagraphComponent",
+                            "type": "paragraph",
+                            "data": "I'm Third Paragraph Of Home Page Section Left",
+                            "fetchedData": [],
+                            "styles": {}
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "p02",
+            "name": "page02",
+            "title": "Our Products",
+            "path": "products",
+            "links": {
+                "home": "Home",
+                "services": "Our Services",
+                "about": "About Us",
+                "team": "Our Team",
+                "contact": "Contact Us"
+            },
+            "styles": {},
+            "layout": [
+                {
+                    "id": "p02_st",
+                    "name": "sectionTop",
+                    "styles": {},
+                    "components": [
+                        {
+                            "id": "p02_st_cm01",
+                            "name": "TitleComponent",
+                            "type": "title",
+                            "data": "",
+                            "fetchedData": [],
+                            "styles": {}
+                        },
+                        {
+                            "id": "p02_st_cm02",
+                            "name": "ParagraphComponent",
+                            "type": "paragraph",
+                            "data": "I'm First Paragraph Of Products Page Section Top",
+                            "fetchedData": [],
+                            "styles": {}
+                        },
+                        {
+                            "id": "p02_st_cm03",
+                            "name": "ParagraphComponent",
+                            "type": "paragraph",
+                            "data": "I'm Second Paragraph Of Products Page Section Top",
+                            "fetchedData": [],
+                            "styles": {}
+                        },
+                        {
+                            "id": "p02_st_cm04",
+                            "name": "ParagraphComponent",
+                            "type": "userFetchData",
+                            "data": "I'm Third Paragraph Of Products Page Section Top",
+                            "fetchedData": [],
+                            "styles": {}
+                        }
+                    ]
+                },
+                {
+                    "id": "p02_sb",
+                    "name": "sectionLeft",
+                    "styles": {},
+                    "components": [
+                        {
+                            "id": "p02_sl_cm01",
+                            "name": "TitleComponent",
+                            "type": "title",
+                            "data": "",
+                            "fetchedData": [],
+                            "styles": {}
+                        },
+                        {
+                            "id": "p02_sl_cm02",
+                            "name": "ParagraphComponent",
+                            "type": "paragraph",
+                            "data": "I'm First Paragraph Of First Page Section Bottom",
+                            "fetchedData": [],
+                            "styles": {}
+                        },
+                        {
+                            "id": "p02_sl_cm03",
+                            "name": "ParagraphComponent",
+                            "type": "paragraph",
+                            "data": "I'm Second Paragraph Of First Page Section Bottom",
+                            "fetchedData": [],
+                            "styles": {}
+                        },
+                        {
+                            "id": "p02_sl_cm04",
+                            "name": "ParagraphComponent",
+                            "type": "paragraph",
+                            "data": "I'm Third Paragraph Of First Page Section Bottom",
+                            "fetchedData": [],
+                            "styles": {}
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "p03",
+            "name": "page03",
+            "title": "Our Services",
+            "path": "services",
+            "links": {
+                "home": "Home",
+                "products": "Our Products",
+                "about": "About Us",
+                "team": "Our Team",
+                "contact": "Contact Us"
+            },
+            "styles": {},
+            "layout": [
+                {
+                    "id": "p03_st",
+                    "name": "sectionTop",
+                    "styles": {},
+                    "components": [
+                        {
+                            "id": "p03_st_cm01",
+                            "name": "TitleComponent",
+                            "type": "title",
+                            "data": "",
+                            "fetchedData": [],
+                            "styles": {}
+                        },
+                        {
+                            "id": "p03_st_cm02",
+                            "name": "ParagraphComponent",
+                            "type": "paragraph",
+                            "data": "I'm First Paragraph Of Services Page Section Top",
+                            "fetchedData": [],
+                            "styles": {}
+                        },
+                        {
+                            "id": "p03_st_cm03",
+                            "name": "ParagraphComponent",
+                            "type": "paragraph",
+                            "data": "I'm Second Paragraph Of Services Page Section Top",
+                            "fetchedData": [],
+                            "styles": {}
+                        },
+                        {
+                            "id": "p03_st_cm04",
+                            "name": "ParagraphComponent",
+                            "type": "userFetchData",
+                            "data": "I'm Third Paragraph Of Services Page Section Top",
+                            "fetchedData": [],
+                            "styles": {}
+                        }
+                    ]
+                },
+                {
+                    "id": "p03_sl",
+                    "name": "sectionLeft",
+                    "styles": {},
+                    "components": [
+                        {
+                            "id": "p03_sl_cm01",
+                            "name": "TitleComponent",
+                            "type": "title",
+                            "data": "",
+                            "fetchedData": [],
+                            "styles": {}
+                        },
+                        {
+                            "id": "p03_sl_cm02",
+                            "name": "ParagraphComponent",
+                            "type": "paragraph",
+                            "data": "I'm First Paragraph Of Services Page Section Left",
+                            "fetchedData": [],
+                            "styles": {}
+                        },
+                        {
+                            "id": "p03_sl_cm03",
+                            "name": "ParagraphComponent",
+                            "type": "paragraph",
+                            "data": "I'm Second Paragraph Of Services Page Section Left",
+                            "fetchedData": [],
+                            "styles": {}
+                        },
+                        {
+                            "id": "p03_sl_cm04",
+                            "name": "ParagraphComponent",
+                            "type": "paragraph",
+                            "data": "I'm Third Paragraph Of Services Page Section Left",
+                            "fetchedData": [],
+                            "styles": {}
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "buildTimeDataFetch": true,
+    "fetchResources": [
+        {
+            "url": "https://jsonplaceholder.typicode.com/posts/1",
+            "targets": [
+                {
+                    "pageId": "p01",
+                    "layoutId": "p01_st",
+                    "components": [
+                        {
+                            "componentId": "p01_st_cm01",
+                            "dataSource": ["id", "userId"]
+                        },
+                        {
+                            "componentId": "p01_st_cm02",
+                            "dataSource": ["title"]
+                        },
+                        {
+                            "componentId": "p04_st_cm03",
+                            "dataSource": ["body"]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "buildCustomPage": false,
+    "customPagesList": ["p01"]
+}

@@ -1,0 +1,81 @@
+{
+    "operationsType" : [ 
+        {
+            "id" : "1",
+            "name" : "CRUD",
+            "operations" : [ 
+                {
+                    "id" : "1",
+                    "name" : "create",
+                    "description" : "create description"
+                }, 
+                {
+                    "id" : "2",
+                    "name" : "update",
+                    "description" : "update description"
+                }, 
+                {
+                    "id" : "3",
+                    "name" : "delete",
+                    "description" : "delete description"
+                }, 
+                {
+                    "id" : "4",
+                    "name" : "Get",
+                    "description" : "Get description"
+                }
+            ]
+        }, 
+        {
+            "id" : "2",
+            "name" : "WorkFlow",
+            "operations" : []
+        }, 
+        {
+            "id" : "3",
+            "name" : "said nav bar",
+            "operations" : [ 
+                {
+                    "id" : "1",
+                    "type" : "said",
+                    "name" : "Menu"
+                }, 
+                {
+                    "id" : "2",
+                    "type" : "said",
+                    "name" : "Templates"
+                }, 
+                {
+                    "id" : "3",
+                    "type" : "said",
+                    "name" : "Pages"
+                }, 
+                {
+                    "id" : "4",
+                    "type" : "said",
+                    "name" : "Documents"
+                }, 
+                {
+                    "id" : "5",
+                    "type" : "said",
+                    "name" : "Banners"
+                }, 
+                {
+                    "id" : "6",
+                    "type" : "said",
+                    "name" : "Users"
+                }, 
+                {
+                    "id" : "7",
+                    "type" : "said",
+                    "name" : "Workflow"
+                }, 
+                {
+                    "id" : "7",
+                    "type" : "said",
+                    "name" : "Settings"
+                }
+            ]
+        }
+    ]
+}

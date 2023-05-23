@@ -1,0 +1,39 @@
+{
+    "name": "dfn-cms-app-web-router",
+    "version": "1.0.0",
+    "description": "web router service for dfn cms app server",
+    "main": "index.js",
+    "scripts": {
+        "auth-link": "npm link --only=prod ../../dfn-cms-shared/packages/auth/dist",
+        "cache-link": "npm link ../../dfn-cms-shared/packages/cache/dist",
+        "logger-link": "npm link --only=prod ../../dfn-cms-shared/services/logger-service",
+        "error-handler-link": "npm link --only=prod ../../dfn-cms-shared/packages/error-handler",
+        "db-link": "npm link --only=prod ../../dfn-cms-shared/packages/universal-db-driver",
+        "link-all": "npm run auth-link & npm run cache-link & npm run db-link",
+        "start_moleculer": "./node_modules/.bin/moleculer-runner --config moleculer.config.js ./services/",
+        "start": "npm run logger-link && npm run error-handler-link && npm run cache-link && npm run start_moleculer",
+        "docker-start": "./node_modules/.bin/moleculer-runner --config moleculer.config.js ./services/",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.19.2",
+        "body-parser": "^1.19.0",
+        "cookie-parser": "^1.4.6",
+        "cors": "^2.8.5",
+        "csurf": "^1.11.0",
+        "del": "^6.0.0",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "express-fileupload": "^1.1.9",
+        "express-session": "^1.17.3",
+        "ioredis": "^4.17.3",
+        "ip": "^1.1.5",
+        "moleculer": "^0.14.7",
+        "morgan": "^1.10.0",
+        "node-fetch": "^2.6.1",
+        "query-string": "^7.0.1",
+        "serve-static": "^1.14.1"
+    }
+}

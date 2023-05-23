@@ -1,0 +1,1 @@
+cd ../dfn-cms/services/auth-service && npm start

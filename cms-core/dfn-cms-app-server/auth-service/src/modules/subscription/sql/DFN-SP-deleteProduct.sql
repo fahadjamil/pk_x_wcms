@@ -1,0 +1,43 @@
+USE [DEVDFNBK]
+GO
+
+/****** Object:  StoredProcedure [dbo].[USP_ADD_PRODUCT]    Script Date: 4/16/2021 3:04:07 PM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+
+CREATE PROCEDURE [dbo].[USP_DELETE_PRODUCT] 
+(
+	@productId int,
+	@isSuccess bit OUTPUT
+)
+AS
+BEGIN
+	BEGIN TRANSACTION;
+	SAVE TRANSACTION InitialState;
+
+	BEGIN TRY
+		DELETE FROM PRODUCTS WHERE PRODUCT_ID = @productId;
+		DELETE FROM PRODUCT_FEE WHERE PRODUCT_ID = @productId;
+
+		SET @isSuccess = 1;
+
+        COMMIT TRANSACTION 
+	END TRY
+	BEGIN CATCH
+		IF @@TRANCOUNT > 0
+        BEGIN
+			SET @isSuccess = 0;
+
+            ROLLBACK TRANSACTION InitialState;
+        END
+	END CATCH
+END
+RETURN @isSuccess
+GO
+
+

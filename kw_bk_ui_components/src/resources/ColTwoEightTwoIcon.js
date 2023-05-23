@@ -1,0 +1,19 @@
+import React from 'react';
+
+export default function ColTwoEightTwoIcon(props) {
+    return (
+        <svg
+            xmlns="http://www.w3.org/1999/xlink"
+            viewBox="0 0 100 50"
+            width={props.width}
+            height={props.height}
+            fill={props.fill}
+        >
+            <path
+                d="M16,0V50H0V0Z M82,0V50H18V0Z M100,0V50H84V0Z"
+                onMouseEnter={props.onMouseEnter}
+                onMouseLeave={props.onMouseLeave}
+            ></path>
+        </svg>
+    );
+}

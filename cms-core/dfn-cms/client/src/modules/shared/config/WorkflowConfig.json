@@ -1,0 +1,48 @@
+{
+    "workflows": [
+        {
+            "workflowName": "Submit Pending",
+            "workflowId": "initial",
+            "nextflows": [{ "flowId": "pendingapproval" }],
+            "textColor": "#ffffff",
+            "backColor": "#007bff",
+            "enableCommentSubmit": true
+        },
+        {
+            "workflowName": "Pending Approval",
+            "workflowId": "pendingapproval",
+            "nextflows": [{ "flowId": "approved" }, { "flowId": "rejected" }],
+            "textColor": "#ffffff",
+            "backColor": "#17a2b8",
+            "enableCommentSubmit": true
+        },
+        {
+            "workflowName": "Approved",
+            "workflowId": "approved",
+            "nextflows": [ 
+                {
+                    "flowId" : "published"
+                }
+            ],
+            "textColor": "#ffffff",
+            "backColor": "#28a745",
+            "enableCommentSubmit": false
+        },
+        {
+            "workflowName": "Rejected",
+            "workflowId": "rejected",
+            "nextflows": [],
+            "textColor": "#ffffff",
+            "backColor": "#dc3545",
+            "enableCommentSubmit": false
+        },
+        {
+            "workflowName" : "Published",
+            "workflowId" : "published",
+            "nextflows" : [],
+            "textColor" : "#ffffff",
+            "backColor" : "#dc3545",
+            "enableCommentSubmit" : false
+        }
+    ]
+}

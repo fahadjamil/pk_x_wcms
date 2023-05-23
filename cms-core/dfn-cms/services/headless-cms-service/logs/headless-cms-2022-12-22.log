@@ -1,0 +1,134 @@
+2022-12-22 15:52:16 info [moleculer-runner.js]: Moleculer v0.14.19 is starting...
+2022-12-22 15:52:16 info [moleculer-runner.js]: Namespace: <not defined>
+2022-12-22 15:52:16 info [moleculer-runner.js]: Node ID: node-headless-cms
+2022-12-22 15:52:16 info [moleculer-runner.js]: Metrics: Enabled
+2022-12-22 15:52:16 info [moleculer-runner.js]: Strategy: RoundRobinStrategy
+2022-12-22 15:52:16 info [moleculer-runner.js]: Discoverer: LocalDiscoverer
+2022-12-22 15:52:16 info [moleculer-runner.js]: Serializer: JSONSerializer
+2022-12-22 15:52:16 info [moleculer-runner.js]: Validator: FastestValidator
+2022-12-22 15:52:16 info [moleculer-runner.js]: Tracing: Enabled
+2022-12-22 15:52:16 info [moleculer-runner.js]: Tracing exporter: ConsoleTraceExporter
+2022-12-22 15:52:16 info [moleculer-runner.js]: Registered 13 middleware(s).
+2022-12-22 15:52:16 info [moleculer-runner.js]: Transporter: RedisTransporter
+2022-12-22 15:52:23 info [moleculer-runner.js]: Connecting to the transporter...
+2022-12-22 15:52:23 info [moleculer-runner.js]: Setting Redis transporter
+2022-12-22 15:52:24 info [moleculer-runner.js]: Redis-sub client is connected.
+2022-12-22 15:52:24 info [moleculer-runner.js]: Setting Redis transporter
+2022-12-22 15:52:24 info [moleculer-runner.js]: Redis-pub client is connected.
+2022-12-22 15:52:24 info [moleculer-runner.js]: SERVICE - cms.activity-logs - Started.
+2022-12-22 15:52:24 info [moleculer-runner.js]: SERVICE - cms.archives - Started.
+2022-12-22 15:52:24 info [moleculer-runner.js]: SERVICE - cms.banner - Started.
+2022-12-22 15:52:24 info [moleculer-runner.js]: SERVICE - cms.cms-permissions - Started.
+2022-12-22 15:52:24 info [moleculer-runner.js]: SERVICE - cms.custom-collections - Started
+2022-12-22 15:52:24 info [moleculer-runner.js]: SERVICE - cms.forms - Started.
+2022-12-22 15:52:24 info [moleculer-runner.js]: SERVICE - headless-cms - Started.
+2022-12-22 15:52:24 info [moleculer-runner.js]: SERVICE - cms.history - Started.
+2022-12-22 15:52:24 info [moleculer-runner.js]: SERVICE - cms.master-info - Started.
+2022-12-22 15:52:24 info [moleculer-runner.js]: SERVICE - cms.menu - Started
+2022-12-22 15:52:24 info [moleculer-runner.js]: SERVICE - cms.page-data - Started.
+2022-12-22 15:52:24 info [moleculer-runner.js]: SERVICE - cms.pages - Started.
+2022-12-22 15:52:24 info [moleculer-runner.js]: SERVICE - cms.publish-pages - Started.
+2022-12-22 15:52:24 info [moleculer-runner.js]: SERVICE - cms.site-permissions - Started.
+2022-12-22 15:52:24 info [moleculer-runner.js]: SERVICE - cms.site-search - Started.
+2022-12-22 15:52:24 info [moleculer-runner.js]: SERVICE - cms.templates - Started
+2022-12-22 15:52:24 info [moleculer-runner.js]: SERVICE - cms.theme - Started.
+2022-12-22 15:52:24 info [moleculer-runner.js]: SERVICE - cms.users - Started.
+2022-12-22 15:52:24 info [moleculer-runner.js]: SERVICE - cms.websites - Started.
+2022-12-22 15:52:24 info [moleculer-runner.js]: SERVICE - cms.workflow - Started.
+2022-12-22 15:52:24 info [moleculer-runner.js]: '$node' service is registered.
+2022-12-22 15:52:24 info [moleculer-runner.js]: 'cms.activity-logs' service is registered.
+2022-12-22 15:52:24 info [moleculer-runner.js]: 'cms.archives' service is registered.
+2022-12-22 15:52:24 info [moleculer-runner.js]: 'cms.banner' service is registered.
+2022-12-22 15:52:24 info [moleculer-runner.js]: 'cms.cms-permissions' service is registered.
+2022-12-22 15:52:24 info [moleculer-runner.js]: 'cms.custom-collections' service is registered.
+2022-12-22 15:52:24 info [moleculer-runner.js]: 'cms.forms' service is registered.
+2022-12-22 15:52:24 info [moleculer-runner.js]: 'headless-cms' service is registered.
+2022-12-22 15:52:24 info [moleculer-runner.js]: 'cms.history' service is registered.
+2022-12-22 15:52:24 info [moleculer-runner.js]: 'cms.master-info' service is registered.
+2022-12-22 15:52:24 info [moleculer-runner.js]: 'cms.menu' service is registered.
+2022-12-22 15:52:24 info [moleculer-runner.js]: 'cms.page-data' service is registered.
+2022-12-22 15:52:24 info [moleculer-runner.js]: 'cms.pages' service is registered.
+2022-12-22 15:52:24 info [moleculer-runner.js]: 'cms.publish-pages' service is registered.
+2022-12-22 15:52:24 info [moleculer-runner.js]: 'cms.site-permissions' service is registered.
+2022-12-22 15:52:24 info [moleculer-runner.js]: 'cms.site-search' service is registered.
+2022-12-22 15:52:24 info [moleculer-runner.js]: 'cms.templates' service is registered.
+2022-12-22 15:52:24 info [moleculer-runner.js]: 'cms.theme' service is registered.
+2022-12-22 15:52:24 info [moleculer-runner.js]: 'cms.users' service is registered.
+2022-12-22 15:52:24 info [moleculer-runner.js]: 'cms.websites' service is registered.
+2022-12-22 15:52:24 info [moleculer-runner.js]: 'cms.workflow' service is registered.
+2022-12-22 15:52:24 info [moleculer-runner.js]: Service '$node' started.
+2022-12-22 15:52:24 info [moleculer-runner.js]: Service 'cms.activity-logs' started.
+2022-12-22 15:52:24 info [moleculer-runner.js]: Service 'cms.archives' started.
+2022-12-22 15:52:24 info [moleculer-runner.js]: Service 'cms.banner' started.
+2022-12-22 15:52:24 info [moleculer-runner.js]: Service 'cms.cms-permissions' started.
+2022-12-22 15:52:24 info [moleculer-runner.js]: Service 'cms.custom-collections' started.
+2022-12-22 15:52:24 info [moleculer-runner.js]: Service 'cms.forms' started.
+2022-12-22 15:52:24 info [moleculer-runner.js]: Service 'headless-cms' started.
+2022-12-22 15:52:24 info [moleculer-runner.js]: Service 'cms.history' started.
+2022-12-22 15:52:24 info [moleculer-runner.js]: Service 'cms.master-info' started.
+2022-12-22 15:52:24 info [moleculer-runner.js]: Service 'cms.menu' started.
+2022-12-22 15:52:24 info [moleculer-runner.js]: Service 'cms.page-data' started.
+2022-12-22 15:52:24 info [moleculer-runner.js]: Service 'cms.pages' started.
+2022-12-22 15:52:24 info [moleculer-runner.js]: Service 'cms.publish-pages' started.
+2022-12-22 15:52:24 info [moleculer-runner.js]: Service 'cms.site-permissions' started.
+2022-12-22 15:52:24 info [moleculer-runner.js]: Service 'cms.site-search' started.
+2022-12-22 15:52:24 info [moleculer-runner.js]: Service 'cms.templates' started.
+2022-12-22 15:52:24 info [moleculer-runner.js]: Service 'cms.theme' started.
+2022-12-22 15:52:24 info [moleculer-runner.js]: Service 'cms.users' started.
+2022-12-22 15:52:24 info [moleculer-runner.js]: Service 'cms.websites' started.
+2022-12-22 15:52:24 info [moleculer-runner.js]: Service 'cms.workflow' started.
+2022-12-22 15:52:24 info [moleculer-runner.js]: ✔ ServiceBroker with 21 service(s) started successfully in 1s.
+2022-12-22 15:52:24 info [moleculer-runner.js]: Node 'node-site-manager' connected.
+2022-12-22 15:52:26 info [moleculer-runner.js]: CMS get CMS permissions for server called.
+2022-12-22 15:52:26 info [moleculer-runner.js]: Node 'node-web-router' connected.
+2022-12-22 15:52:26 info [moleculer-runner.js]: [90m┌──────────────────────────────────────────────────────────────────────────────────────────────────┐[39m
+2022-12-22 15:52:26 info [moleculer-runner.js]: [90m│ [39m[90mID: [39m[1m502a931d-5afa-4d95-b507-0452edbe57b0                                      [22m [90mDepth: [39m[1m1[22m [90mTotal: [39m[1m1[22m[90m │[39m
+2022-12-22 15:52:26 info [moleculer-runner.js]: [90m├──────────────────────────────────────────────────────────────────────────────────────────────────┤[39m
+2022-12-22 15:52:26 info [moleculer-runner.js]: [90m│ [39m[1m[36m[90m[39m[36maction 'cms.cms-permissions.getCMSPermission... 211ms [90m[[39m[36m[90m[39m[36m■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■[90m[39m[36m[90m][39m[36m[22m[39m[90m │[39m
+2022-12-22 15:52:26 info [moleculer-runner.js]: [90m└──────────────────────────────────────────────────────────────────────────────────────────────────┘[39m
+2022-12-22 15:52:27 info [moleculer-runner.js]: Node 'desktop-hu6fekd-8156' connected.
+2022-12-22 15:52:30 info [moleculer-runner.js]: CMS get site permissions for server called. DBName: DB
+2022-12-22 15:52:30 info [moleculer-runner.js]: Node 'app-web-router' connected.
+2022-12-22 15:52:30 info [moleculer-runner.js]: [90m┌──────────────────────────────────────────────────────────────────────────────────────────────────┐[39m
+2022-12-22 15:52:30 info [moleculer-runner.js]: [90m│ [39m[90mID: [39m[1mecc30760-59fb-4f71-89e6-7e54ad095ff2                                      [22m [90mDepth: [39m[1m1[22m [90mTotal: [39m[1m1[22m[90m │[39m
+2022-12-22 15:52:30 info [moleculer-runner.js]: [90m├──────────────────────────────────────────────────────────────────────────────────────────────────┤[39m
+2022-12-22 15:52:30 info [moleculer-runner.js]: [90m│ [39m[1m[36m[90m[39m[36maction 'cms.site-permissions.getSitePermissio... 34ms [90m[[39m[36m[90m[39m[36m■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■[90m[39m[36m[90m][39m[36m[22m[39m[90m │[39m
+2022-12-22 15:52:30 info [moleculer-runner.js]: [90m└──────────────────────────────────────────────────────────────────────────────────────────────────┘[39m
+2022-12-22 15:52:31 info [moleculer-runner.js]: Node 'node-app-server-dynamic-content' connected.
+2022-12-22 15:52:36 info [moleculer-runner.js]: Node 'node-auth' connected.
+2022-12-22 15:57:00 error [moleculer-runner.js]: Redis-sub error
+2022-12-22 15:57:00 warn [moleculer-runner.js]: Redis-sub client is disconnected.
+2022-12-22 15:57:00 error [moleculer-runner.js]: Redis-pub error
+2022-12-22 15:57:00 warn [moleculer-runner.js]: Redis-pub client is disconnected.
+2022-12-22 15:57:00 error [moleculer-runner.js]: Redis-sub error
+2022-12-22 15:57:00 error [moleculer-runner.js]: Redis-pub error
+2022-12-22 15:57:00 warn [moleculer-runner.js]: Redis-pub client is disconnected.
+2022-12-22 15:57:00 warn [moleculer-runner.js]: Redis-sub client is disconnected.
+2022-12-22 15:57:00 error [moleculer-runner.js]: Redis-pub error
+2022-12-22 15:57:00 error [moleculer-runner.js]: Redis-sub error
+2022-12-22 15:57:00 warn [moleculer-runner.js]: Redis-sub client is disconnected.
+2022-12-22 15:57:00 warn [moleculer-runner.js]: Redis-pub client is disconnected.
+2022-12-22 15:57:01 error [moleculer-runner.js]: Redis-sub error
+2022-12-22 15:57:01 warn [moleculer-runner.js]: Redis-sub client is disconnected.
+2022-12-22 15:57:01 error [moleculer-runner.js]: Redis-pub error
+2022-12-22 15:57:01 warn [moleculer-runner.js]: Redis-pub client is disconnected.
+2022-12-22 15:57:01 error [moleculer-runner.js]: Redis-sub error
+2022-12-22 15:57:01 warn [moleculer-runner.js]: Redis-sub client is disconnected.
+2022-12-22 15:57:01 error [moleculer-runner.js]: Redis-pub error
+2022-12-22 15:57:01 warn [moleculer-runner.js]: Redis-pub client is disconnected.
+2022-12-22 15:57:01 error [moleculer-runner.js]: Redis-sub error
+2022-12-22 15:57:01 warn [moleculer-runner.js]: Redis-sub client is disconnected.
+2022-12-22 15:57:01 error [moleculer-runner.js]: Redis-pub error
+2022-12-22 15:57:01 warn [moleculer-runner.js]: Redis-pub client is disconnected.
+2022-12-22 15:57:01 error [moleculer-runner.js]: Redis-sub error
+2022-12-22 15:57:01 warn [moleculer-runner.js]: Redis-sub client is disconnected.
+2022-12-22 15:57:01 error [moleculer-runner.js]: Redis-pub error
+2022-12-22 15:57:01 warn [moleculer-runner.js]: Redis-pub client is disconnected.
+2022-12-22 15:57:02 error [moleculer-runner.js]: Redis-sub error
+2022-12-22 15:57:02 warn [moleculer-runner.js]: Redis-sub client is disconnected.
+2022-12-22 15:57:02 error [moleculer-runner.js]: Redis-pub error
+2022-12-22 15:57:02 warn [moleculer-runner.js]: Redis-pub client is disconnected.
+2022-12-22 15:57:02 error [moleculer-runner.js]: Redis-sub error
+2022-12-22 15:57:02 warn [moleculer-runner.js]: Redis-sub client is disconnected.
+2022-12-22 15:57:02 error [moleculer-runner.js]: Redis-pub error
+2022-12-22 15:57:02 warn [moleculer-runner.js]: Redis-pub client is disconnected.

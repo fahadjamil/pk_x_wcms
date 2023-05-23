@@ -1,0 +1,26 @@
+{
+  "name": "@ckpro/ckeditor5-popover",
+  "version": "1.1.2",
+  "description": "Popover & Tooltip Plugin for CKEditor 5.",
+  "keywords": [
+    "ckeditor 5",
+    "popover",
+    "popup",
+    "tooltip"
+  ],
+  "files": [
+    "src",
+    "theme",
+    "theme/icons"
+  ],
+  "main": "src/popover.js",
+  "author": "Rasmus Rummel",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "homepage": "https://topiqs.online/7413",
+  "dependencies": {
+    "@ckeditor/ckeditor5-core": "x",
+    "@ckeditor/ckeditor5-widget": "x",
+    "@ckeditor/ckeditor5-ui": "x",
+    "@ckeditor/ckeditor5-utils": "x"
+  }
+}

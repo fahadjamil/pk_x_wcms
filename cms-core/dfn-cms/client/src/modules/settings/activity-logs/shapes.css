@@ -1,0 +1,32 @@
+.circle {
+    display: inline-block;
+    border-radius: 50%;
+    padding: 5px;
+    text-align: center;
+    line-height: 1;
+    box-sizing: content-box;
+    white-space: nowrap;
+    font-size: 35px;
+    height: 56px;
+    width: 56px;
+}
+.circle:before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 100%;
+    height: 0;
+}
+.circle span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.vl {
+    border-left: 2px solid gray;
+    height: 12px;
+    position: relative;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+}
